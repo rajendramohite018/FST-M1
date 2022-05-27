@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="classes">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNGActivities.Activity3"/>
+      <class name="testNGActivities.Activity5"/>
+      <class name="testNGActivities.Activity7"/>
+       <class name="testNGActivities.Activity6"/>
+      <class name="testNGActivities.Activity4_DemoOne"/>
+      <class name="testNGActivities.Activity4_DemoTwo"/>
+      <class name="testNGActivities.Activity1"/>
+      <class name="testNGActivities.Activity2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
